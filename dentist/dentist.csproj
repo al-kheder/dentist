@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -80,7 +81,34 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="images\" />
+    <None Include="images\close1.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\close2.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\arzt.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\zahn2.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\zahn3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\zahn4.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\openaye.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\closedEye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\zahn5.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
